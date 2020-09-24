@@ -1,0 +1,24 @@
+DELETE FROM dept
+WHERE deptno=40
+
+ALTER TABLE emp
+DROP CONSTRAINT FK_DEPTNO
+
+DROP TABLE dept
+
+select * from dept
+
+SELECT * FROM emp
+
+DELETE FROM emp
+WHERE ename='KING'
+
+TRUNCATE TABLE emp
+-- BAICALLY DOING SAME TASK
+DELETE FROM emp
+
+DROP TABLE emp
+
+DROP TABLE stores
+
+DROP TABLE products
